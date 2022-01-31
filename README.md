@@ -1,1 +1,4 @@
-# kanban-todo
+# Kanban Todo
+
+### Description:
+For personal organization.
