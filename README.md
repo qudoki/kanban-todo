@@ -1,4 +1,4 @@
 # Kanban Todo
 
 ### Description:
-For personal organization.
+For personal organization and prioritization.

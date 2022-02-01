@@ -52,8 +52,10 @@ export default class Item {
 
 		return range.createContextualFragment(`
             <div class="kanban__item" draggable="true">
-                <div class="kanban__item-input" contenteditable></div>
+            <div class="kanban__item-input" contenteditable></div>
             </div>
-        `).children[0];
+            `).children[0];
+        }
     }
-}
+    // TODO: sorting by priority and categorize with color, how to deal with timescale?
+    // <div class="priority">Priority: 1</div>
