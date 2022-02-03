@@ -60,7 +60,7 @@ export default class Item {
                     <button id="cat__home" class="item__category type="button"">Home</button>
                     <button id="cat__delhi" class="item__category type="button"">Delhi</button>
                     <button id="cat__work" class="item__category type="button"">Work</button>
-                    <button id="cat__misc" class="item__category type="button"">Misc</button>
+                    <button id="cat__code" class="item__category type="button"">Code</button>
                 </div>
             </div>
             `).children[0];
