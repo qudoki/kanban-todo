@@ -60,3 +60,43 @@
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
+
+.item__category {
+	border-radius: 7px;
+	width: 20%;
+	height: 18px;
+	/* color: black; */
+	font-weight: 300;
+	font-size: xx-small;
+	/* padding: 1px; */
+}
+
+.item__category:not(:last-child) {
+	margin-right: 5px;
+}
+
+#cat__mebic {
+	background-color: #d2f0d2;
+}
+
+#cat__home {
+	background-color: #F0F8FF;
+}
+
+#cat__delhi {
+	background-color: #AFEEEE;
+}
+
+#cat__work {
+	background-color: #FFE4E1;
+}
+
+#cat__misc {
+	background-color: #FFFACD;
+}
+
+.category__div {
+	width: 100%;
+	padding-top: 2%;
+	display: flex;
+}
