@@ -36,6 +36,7 @@ export default class KanbanAPI {
                     return [item, column];
                 }
             }
+            // console.log(data);
         })();
 
         if (!item) {

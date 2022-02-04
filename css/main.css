@@ -66,10 +66,8 @@
 	border-radius: 7px;
 	width: 20%;
 	height: 18px;
-	/* color: black; */
 	font-weight: 300;
 	font-size: xx-small;
-	/* padding: 1px; */
 }
 
 .item__category:not(:last-child) {
