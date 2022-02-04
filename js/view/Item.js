@@ -45,11 +45,14 @@ export default class Item {
         tagClickCode.addEventListener("click", changeColor);
 
         function changeColor() {
-            // console.log(this.id);
-            category = this.id;
-            console.log(category)
+            const newCategory = this.id;
             document.querySelector(".kanban__item").children[0]
-            .setAttribute("id", category)
+            .setAttribute("id", newCategory);
+            this.category = newCategory;
+            // KanbanAPI.updateItem(id, {
+            //     category: this.category,
+            // })
+            // console.log(this.category);
         }
 
 		const onBlur = () => {
