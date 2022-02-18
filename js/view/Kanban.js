@@ -15,7 +15,7 @@ export default class Kanban {
 	static columns() {
 		return [
 			{ id: 1, title: "Backlog" },
-			{ id: 2, title: "Progress" },
+			{ id: 2, title: "Today" },
 			{ id: 3, title: "Snag" },
 			{ id: 4, title: "Done" }
 		];
